@@ -119,15 +119,15 @@ void theExercise5() {
 // Note: The user must enter a single number greater than zero
 //, because the number of lines cannot be a double or its value is zero or less than zero.
 
-// *
-// **
-// ***
-// ****
+//     *
+//    **
+//   ***
+//  ****
 // *****
-// ****
-// ***
-// **
-// *
+//  ****
+//   ***
+//    **
+//     *
 
   print('Enter the number of Rows: ');
 
