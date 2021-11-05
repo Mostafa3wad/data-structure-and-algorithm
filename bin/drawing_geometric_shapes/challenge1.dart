@@ -37,8 +37,8 @@ void theExercise2() {
 
   print('Enter the number of lines: ');
   var numberOfLines = int.parse(stdin.readLineSync());
-  for (var i = numberOfLines; i == 1; i--) {
-    print('*' * i);
+  for (var i = 1; i <= numberOfLines; i++) {
+    print(' ' * (numberOfLines - i) + '*' * i);
   }
 }
 
